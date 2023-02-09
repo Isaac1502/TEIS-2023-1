@@ -22,8 +22,17 @@ function nestedArray(array $arr): void {
 }
 
 $flarr = range(1, 5, 0.5);
-print_r($flarr);
+//print_r($flarr);
 
 //nestedArray($cars);
+
+//unset() --> delete from an array (retain the numeric index)
+//array_splice() --> similar to unset() (doen't retain the index, shift the entire array)
+//array_values() --> reindex the given array
+
+
+
+$array = ['cas' => 'apple', 'b' => 'banana', 25 => 'cola', 'd' => 'donut'];
+print_r(array_slice($array, 0, 3));
 
 ?>
