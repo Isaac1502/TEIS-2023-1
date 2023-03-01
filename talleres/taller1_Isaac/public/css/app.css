@@ -1,0 +1,34 @@
+.bg-secondary {
+    background-color: #6a7376 !important;
+  }
+  
+  .copyright {
+    background-color: #6a7376;
+  }
+  
+  .bg-primary {
+    background-color: #525651 !important;
+  }
+
+  .bg-primary-del {
+    background-color: #d41818 !important;
+  }
+
+  .bg-ternary {
+    background-color: #525651 !important;
+    margin-left: 250px;
+  }
+  
+  nav{
+    font-weight: 700;
+  }
+  
+  .img-card{
+    height: 18vw;
+    object-fit: cover;
+  }
+
+  .show-attribute{
+    font-weight: bold;
+  }
+  
